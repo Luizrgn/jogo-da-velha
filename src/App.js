@@ -1,9 +1,13 @@
-
-import './App.css';
+import React from 'react';
+import Sobre from './Objects/Sobre';
+import Logotipo from './Objects/Logotipo';
 
 function App() {
   return (
-   <a href='#to-do' className='action'>Sobre</a>
+    <div>
+      <Logotipo />
+      <Sobre />
+    </div>
   );
 }
 
