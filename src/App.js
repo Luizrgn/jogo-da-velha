@@ -1,17 +1,11 @@
-import React, {Fragment} from 'react'; // aqui importamos o fragment, melhorando nosso SEO sistemas de busca. 
-import Sobre from './Objects/Sobre';
-import Logotipo from './Objects/Logotipo';
-import Menu from './Objects/Menu';
+import React, {} from 'react';
+import Header, {} from './Components/Header'; // diferente do tutorial do marcobruno colabcode, ele me apontou erro de sintaxe pedindo pra digitar as chaves! só assim funcionou o codigo.
 
-// fragment é colocado no lugar da div para não sujar nosso MARKUP que pode ser inspecionado no Search html dentro de inspector.
+
 function App() {
   return (
-    <Fragment> 
-      <Logotipo />
-      <Sobre />
-      <Menu />
-    </Fragment>
+    <Header />
   );
-} // outra maneira de escrever e trazer isso do Fragment é sem precisar importar ele você digitar <> "algum codigo" </> e o sistema ja vai compreender que é fragment
+} 
 
 export default App;
