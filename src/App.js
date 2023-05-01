@@ -10,8 +10,19 @@ function App() {
   return (
     <Fragment>
     <Header />
-    <Card />
+    <Card>
+    <Player player="o" />
     <Player player="x" />
+    <Player player="o" />
+
+    <Player player="x" />
+    <Player player="o" />
+    <Player player="x" />
+
+    <Player player="o" />
+    <Player player="x" />
+    <Player player="o" />
+    </Card>
     </Fragment>
   );
 } 
